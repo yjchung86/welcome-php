@@ -4,7 +4,7 @@ This is an example PHP application you can use to test your OSEv3 environment.
 
 Here is an example:
 ```
-user@host$ oc new-app openshift/php~https://github.com/christianh814/welcome-php
+user@host$ oc new-app openshift/php~https://github.com/RedHatWorkshops/welcome-php
 ```
 
 Things to keep in mind:
@@ -21,7 +21,7 @@ user@host$ oc start-build welcome-php
 
 Once the build completes; create and add your route:
 ```
-user@host$ oc expose svc welcome-php --hostname=welcome-php.cloudapps.example.com
+user@host$ oc expose svc welcome-php
 ```
 
 Scale up as you wish
