@@ -280,7 +280,7 @@ function test_input($data) {
 <p><span class="error">* required field.</span></p>
 
 <?php
-echo "<h2>Your Input:</h2>";
+echo "<h2>Your Inputs:</h2>";
 echo $name;
 echo "<br>";
 echo $email;
